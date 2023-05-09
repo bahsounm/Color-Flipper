@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top:300px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+#back_disp{
+    background-color:  #001B35;
+    color: white;
+    border: solid;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+#button1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#click{
+    font-size: 2rem;
+    background-color:  #001B35;
+    color: white;
+    border: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    width: 100px;
+    transition: all 0.3s ease;
+}
+
+#click:hover{
+    cursor: pointer;
+    background-color: gray;
+}
